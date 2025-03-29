@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Página de Carros</h2>
+
+<ul>
+    <li class="btn btn-outline-success">@Html.ActionLink("Menu Inicial", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })</li>
+    <li class="btn btn-success">@Html.ActionLink("Lista de Carros", "Listar", "Carro", new { area = "" }, new { @class = "nav-link" })</li>
+</ul>

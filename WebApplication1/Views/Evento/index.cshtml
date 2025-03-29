@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "index";
+}
+
+<h2>Página de Eventos</h2>
+
+<ul>
+    <li class="btn btn-outline-success">@Html.ActionLink("Menu Inicial", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })</li>
+    <li class="btn btn-success">@Html.ActionLink("Lista de Eventos", "Listar", "Evento", new { area = "" }, new { @class = "nav-link" })</li>
+</ul>
+

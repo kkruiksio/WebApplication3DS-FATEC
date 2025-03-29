@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <section class="row" aria-labelledby="aspnetTitle">
+        <h1 id="title">DESENVOLVIMENTO MVC COM ASP.NET</h1>
+    </section>
+
+    <div class="row">
+        <ul>
+            <li class="btn btn-success">@Html.ActionLink("Alunos", "Index", "Aluno", new { area = "" }, new { @class = "nav-link" })</li>
+            <li class="btn btn-success">@Html.ActionLink("Carros", "index", "Carro", new { area = "" }, new { @class = "nav-link" })</li>
+            <li class="btn btn-success">@Html.ActionLink("Celulares", "index", "Celular", new { area = "" }, new { @class = "nav-link" })</li>
+            <li class="btn btn-success">@Html.ActionLink("Eventos", "index", "Evento", new { area = "" }, new { @class = "nav-link" })</li>
+        </ul>
+        <section class="col-md-4" aria-labelledby="librariesTitle">
+        </section>
+        <section class="col-md-4" aria-labelledby="hostingTitle">
+        </section>
+    </div>
+</main>
